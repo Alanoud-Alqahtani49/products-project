@@ -1,0 +1,138 @@
+header{
+    background-color: orange;
+    padding: 2px 30px;
+    margin-bottom: 30px;
+    color: brown;
+    font-size: 25px;
+}
+header img{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+
+}
+
+  
+body{
+    margin: 0;
+    padding: 0;
+    color: brown;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+}
+th, td{
+    border: 1px solid orange;
+    text-align: center;
+    padding: 10px;
+    color: red;
+    font-size: 20px;
+}
+
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(242, 208, 146);
+}
+
+button{
+    background-color: #31f837;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #08b20e;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.shop{
+    text-align: center;
+}
+.Discounts {
+text-align: left;
+}
+img {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+.Sign{
+    text-align: center;
+    font-size: 18px;
+}
+
+form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;    
+}
+
+    label {
+        display: inline-block;
+        text-align: left ;
+        width: 49%;
+        padding: 10px 10px;
+
+    }
+
+    input[type=email], select {
+    width: 50%;
+    padding: 12px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+   input[type=password], select {
+    width: 50%;
+    padding: 12px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+    input[type=submit] {
+    width: 100%;
+    background-color: #31f837;
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+
+aside{
+    background-color: antiquewhite;
+    width: 25%;
+    padding: 15px;
+    margin-left: 25px;
+    float: right;
+    font-style: italic;
+    color: rgb(213, 34, 34);
+}
+footer{
+    background-color: orange;
+    padding: 10px 30px;
+    margin-top: 30px;
+    color: brown;
+    text-align: center;
+}

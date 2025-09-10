@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="description" content="Sign in to Cat Store and continue shopping cat food, treats, litter, and more in one place.">
         <meta name="keywords" content="Sign in Cat Store, Dry Food, Wet Food, Cat Treat, Litter Box, Cat Litter">
-        <title>Sign in-Cat Store</title>
+        <title>Create Account-Cat Store</title>
         <link rel="stylesheet" href="products.css">
         <link rel="icon" type="image/x-icon" href="icon-cat.png">
     </head>
@@ -17,18 +17,26 @@
 
     <div class="main1-login">
         <h1>Welcome To Cat Store</h1>
-        <h2><em>shop everything for your cat in one place!</em></h2></div>
+        <h2><em>Register now and start shopping for your cat's needs</em></h2></div>
 
     <form action="#" method="post">
     <div class="main2-login">
-        <h2>Sign in</h2>
+        <h2>Create Account</h2>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your full name..." required><br>
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" placeholder="Enter your email..." required><br>
         <label for="pwd">Password:</label><br>
         <input type="password" id="pwd" name="pwd" placeholder="Enter the password..." required><br><br>
+
+        <input type="radio" id="gender" name="gender" value="Female">
+        <label for="gender">Female</label><br>
+        <input type="radio" id="gender" name="gender" value="Male">
+         <label for="gender">Male</label><br>
+
         <button type="submit">Submit</button> 
 
-        <p>Don't have an account? <a href="register.html">Register now</a></p></div>
+        <p>Already have an account? <a href="log-in.html">Sign in here</a></p></div>
     </form>
 
     </main>
